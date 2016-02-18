@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+<TextView 
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lattitude"
+    />
+<TextView 
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lattitude"
+        android:layout_marginBottom="5dp"
+        android:text="lattitude"
+    />
+<TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Longitude"
+    />
+<TextView 
+    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/longitude"
+        android:text="Longitude"
+        android:layout_marginBottom="5dp"
+    />
+<TextView 
+    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="time"
+        android:layout_marginBottom="10dp"
+    />
+<TextView 
+    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time"
+        android:text="time"
+        android:layout_marginBottom="30dp"
+    />
+
+<Button
+    android:id="@+id/btnlocation"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:text="getlocation" />
+
+<Button
+    android:id="@+id/showmap"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="showmap" />
+
+<Button
+    android:id="@+id/btnDelete"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Clear" />
+
+<TextView
+    android:id="@+id/deleterows"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="" />
+
+</LinearLayout>

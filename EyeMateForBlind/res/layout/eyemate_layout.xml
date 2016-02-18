@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/eyematelogo"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtArduino"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="textArduino" />
+
+    <TextView
+        android:id="@+id/textViewGround"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="textViewGround" />
+
+    <TextView
+        android:id="@+id/textViewLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="textViewLeft" />
+
+    <TextView
+        android:id="@+id/textViewRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="textViewRight" />
+
+    <TextView
+        android:id="@+id/lattitudetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lattitude" />
+
+    <TextView
+        android:id="@+id/longitudetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Longitudetext" />
+
+    <TextView
+        android:id="@+id/timeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="time" />
+
+    <TextView
+        android:id="@+id/detailtext"
+        android:layout_width="28dp"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/records"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="recods" />
+
+    <TextView
+        android:id="@+id/providertxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="provider" />
+
+    <TextView
+        android:id="@+id/txtAccuracy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accuracy" />
+
+</LinearLayout>
