@@ -3,10 +3,13 @@ At present many blind assistive systems have been implemented but there is no su
 button. The blind assistive application gets the latitude and longitude using GPS and then sends them to a server. The movement of the blind person is tracked through another android application that points out the current position in Google map. We took distances from several surfaces like concrete and tiles floor in our experiment where the error rate is 5%.
 
 ## Platform
+
 ### Software Module
 * Android
+* 
 ### Hardware Module
 * Arduino Mega2560
+
 ### Web Module
 * Php and MySql server
 
