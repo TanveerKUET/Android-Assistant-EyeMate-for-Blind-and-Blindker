@@ -6,7 +6,7 @@ button. The blind assistive application gets the latitude and longitude using GP
 
 ### Software Module
 * Android
-* 
+
 ### Hardware Module
 * Arduino Mega2560
 
